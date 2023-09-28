@@ -29,11 +29,13 @@ def rms(data):
 
 def load_patient_file(path):
     # code to load data goes here
+    df=pd.read_excel(PatientA)
     pass
 
     
 def load_control_file(path):
     # code to load data goes here
+    df2=pd.read_excel(Control)
     pass
 
     
